@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
