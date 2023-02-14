@@ -4,6 +4,7 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: center;
 
 
 
@@ -29,6 +30,7 @@ header {
 img {
     width: 400px;
     border-radius: 25px;
+    margin: 16px;
 }
 
 p {
@@ -50,9 +52,19 @@ button {
     flex-wrap: wrap;
 }
 
+.quote-container {
+    width: 600px;
+    height: 400px;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
 .title {
-    width: 400px;
+    width: 300px;
     color: white;
+    margin: 16px;
+    text-align: left;
 }
 
 .info {
@@ -60,6 +72,7 @@ button {
     width: 200px;
     margin: 16px;
     text-align: center;
+    flex-wrap: wrap;
 
 }
 
@@ -70,10 +83,17 @@ button {
     border-radius: 25px;
 }
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1F2937;
+
+}
+
 .section-1 {
     background: #1F2937;
     padding-bottom: 16px;
-
 }
 
 .section-2 {
@@ -81,9 +101,26 @@ button {
     justify-content: center;
     align-items: center;
     margin:16px;
+    flex-wrap: wrap;
+} 
+
+.section-3 {
+    background: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 16px;
+    margin: 0;
+    flex-wrap: wrap;
 }
 
 header > h2 {
     color: white;
 
+}
+
+.quote-container > .author {
+    font-weight: bold;
+    text-align: right;
+    margin: 16px;
 }
