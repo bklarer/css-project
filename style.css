@@ -91,6 +91,17 @@ button {
 
 }
 
+.action-call {
+    display: flex;
+    background: #3882f6;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    color: white;
+
+}
+
+
 .section-1 {
     background: #1F2937;
     padding-bottom: 16px;
@@ -114,6 +125,12 @@ button {
     flex-wrap: wrap;
 }
 
+.section-4 {
+    padding: 60px 120px;
+    justify-content: center;
+    align-items: center;
+}
+
 header > h2 {
     color: white;
 
@@ -123,4 +140,11 @@ header > h2 {
     font-weight: bold;
     text-align: right;
     margin: 16px;
+}
+
+.action-call > button {
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 8px 16px;
+    background: none;
 }
